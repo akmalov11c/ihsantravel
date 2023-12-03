@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <!-- <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"> -->
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+
+    <title>iHSAN TRAVEL</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./ru.html" class="nav__logo">
+          <img
+            class="menu__logo"
+            src="../assets/img/dark horizontal.png"
+            alt="logo"
+          />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <button class="lang" id="lang__link">
+                Язык <i class="ri-arrow-down-line"></i>
+              </button>
+
+              <ul class="dropdown" id="dropdown">
+                <li class="uz">
+                  <a href="../index.html" class="nav__link">UZ</a>
+                </li>
+                <li class="ru">
+                  <a href="../ru/ru.html" class="nav__link">РУС</a>
+                </li>
+                <li class="eng">
+                  <a href="../eng/eng.html" class="nav__link">ENG</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item">
+              <a href="./ru.html" class="nav__link">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">О Нас</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Контакты</a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="./umrah-ru.html"
+                class="nav__link umrah__link"
+                style="color: #fff !important"
+                >Умра Туры</a
+              >
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-4-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <img
+          src="../assets/img/home-bg.jpg"
+          alt="home image"
+          class="home__bg"
+        />
+        <div class="home__shadow"></div>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Путешествуй <br />
+              По Всему Миру
+            </h1>
+
+            <p
+              class="home__description"
+              style="font-family: Montserrat, sans-serif"
+            >
+              Живите в путешествиях, исследуя мир, открывайте для себя райские
+              места, острова, горы и многое другое, отправляйтесь в путешествие
+              прямо сейчас
+            </p>
+
+            <a href="#contact" class="button">
+              Начни свое путешествие
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="home__cards grid">
+            <article class="home__card">
+              <img
+                src="../assets/img/dubai.jpg"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">Дубай</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+            <article class="home__card">
+              <img
+                src="../assets/img/home-lake.jpg"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">Исландия</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+            <article class="home__card">
+              <img
+                src="../assets/img/istanbul.jpg"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">Стамбул</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+            <article class="home__card">
+              <img
+                src="../assets/img/home-beach.jpg"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">Испания</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">
+              Узнать Больше <br />
+              О нас
+            </h2>
+
+            <p
+              class="about__description"
+              style="font-family: Montserrat, sans-serif"
+            >
+              Наша служба поддержки клиентов работает круглосуточно, чтобы
+              ответить на все ваши вопросы. Не стесняйтесь обращаться к нашей
+              команде, чтобы лучше понять тур, мы будем рады помочь.
+            </p>
+
+            <span
+              class="about__descr"
+              style="font-family: Montserrat, sans-serif"
+            >
+              <i class="ri-check-double-line"></i>
+              5 лет опыта
+            </span>
+            <span
+              class="about__descr"
+              style="font-family: Montserrat, sans-serif; margin-bottom: 3rem"
+            >
+              <i class="ri-check-double-line"></i>
+              150+ потрясающих туров
+            </span>
+
+            <a href="#contact" class="button">
+              Узнать Больше
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="about__image">
+            <img
+              src="../assets/img/about-beach.jpg"
+              alt="about image"
+              class="about__img"
+            />
+            <div class="about__shadow"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== UMRAH ====================-->
+      <section class="umrah section" id="umrah">
+        <div class="umrah__container">
+          <div class="umrah__image">
+            <img
+              src="../assets/img/umrah.jpg"
+              alt="umrah image"
+              class="umrah__img"
+            />
+            <div class="umrah__shadow"></div>
+          </div>
+
+          <div class="umrah__content container grid">
+            <div class="umrah__data">
+              <h2 class="section__title">Умра Паломничество</h2>
+
+              <p
+                class="umrah__description"
+                style="font-family: Montserrat, sans-serif"
+              >
+                Одним из важных паломничеств, которые мусульмане могут совершать
+                в Саудовской Аравии в любое время года, является умра. Это
+                паломничество является частью более крупного ежегодного
+                паломничества хаджа. Это идеальный пакет умры для паломников,
+                ищущих беспроблемную и роскошную поездку в Мекку и Медину.
+              </p>
+            </div>
+            <div class="umrah__button">
+              <a href="./umrah-ru.html" class="button">
+                Забронируйте тур Умра
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__data">
+            <h2>Наши контакты</h2>
+
+            <p style="font-family: Montserrat, sans-serif">
+              У вас есть вопрос, предложение или отзыв к нам? Позвоните нам или
+              напишите нам, чтобы связаться с нашей командой.
+            </p>
+
+            <div class="contact__phone">
+              <i class="ri-phone-line"></i>
+              <div>
+                <span
+                  ><a class="nav__link" href="tel:+998933727222"
+                    >+998 93 372 72 22</a
+                  ></span
+                >
+                <span
+                  ><a class="nav__link" href="tel:+998910977777"
+                    >+998 91 097 77 77</a
+                  ></span
+                >
+                <span
+                  ><a class="nav__link" href="tel:+998931347222"
+                    >+998 93 134 72 22</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div class="contact__phone">
+              <i class="ri-mail-line"></i>
+              <div>
+                <span>
+                  <a class="nav__link" href="mailto:ihsantravel_uz@mail.ru"
+                    >ihsantravel_uz@mail.ru</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__mail">
+            <h2>Забронируйте тур сейчас</h2>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    id="name"
+                    required
+                    placeholder="Имя"
+                  />
+                  <label class="contact__label" for="name">Имя</label>
+                </div>
+                <div class="contact__box">
+                  <input
+                    type="phone"
+                    name="user_number"
+                    id="phone"
+                    required
+                    placeholder="Номер телефона"
+                  />
+                  <label class="contact__label" for="phone"
+                    >Номер телефона</label
+                  >
+                </div>
+              </div>
+
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  required
+                  placeholder="Сообщение"
+                ></textarea>
+                <label class="contact__label" for="message">Сообщение</label>
+              </div>
+
+              <p id="contact-message"></p>
+
+              <button type="submit" class="button" style="cursor: pointer">
+                <i class="ri-send-plane-line"></i>Отправить сообщение
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== LOCATION ====================-->
+      <div class="location section">
+        <div class="container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d617.898723610772!2d70.92425964145819!3d40.55424191256533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bae94c9c3f7d6d%3A0xc45a32e326c77262!2zSFczRitQVjYsINCa0L7QutCw0L3QtCwg0KPQt9Cx0LXQutC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1701459354549!5m2!1sru!2s"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div>
+            <a href="#" class="footer__logo">
+              <img
+                class="menu__logo"
+                src="../assets/img/dark horizontal.png"
+                alt="logo"
+            /></a>
+
+            <p
+              class="footer__description"
+              style="font-family: Montserrat, sans-serif"
+            >
+              Путешествуйте с нами и исследуйте <br />
+              мир без границ.
+            </p>
+          </div>
+
+          <div class="footer__data grid">
+            <div>
+              <h3 class="footer__title">Ссылки</h3>
+
+              <ul
+                class="footer__links"
+                style="font-family: Montserrat, sans-serif"
+              >
+                <li>
+                  <a href="./ru.html" class="footer__link">Главная</a>
+                </li>
+                <li>
+                  <a href="#about" class="footer__link">О Нас</a>
+                </li>
+                <li>
+                  <a href="#contact" class="footer__link">Контакты</a>
+                </li>
+                <li>
+                  <a href="./umrah-ru.html" class="footer__link">Умра Туры</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Туры</h3>
+
+              <ul
+                class="footer__links"
+                style="font-family: Montserrat, sans-serif"
+              >
+                <li>
+                  <a href="#" class="footer__link">Дубай</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Исландия</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Стамбул</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Испания</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Контакты</h3>
+
+              <ul class="footer__links">
+                <li>
+                  <a class="nav__link" href="tel:+998933727222"
+                    >+998 93 372 72 22</a
+                  >
+                </li>
+                <li>
+                  <a class="nav__link" href="tel:+998910977777"
+                    >+998 91 097 77 77</a
+                  >
+                </li>
+                <li>
+                  <a class="nav__link" href="tel:+998931347222"
+                    >+998 93 134 72 22</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:ihsantravel_uz@mail.ru" class="footer__link"
+                    >ihsantravel_uz@mail.ru</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/profile.php?id=100094926056735"
+              target="_blank"
+              class="footer__social-link"
+              ><i class="ri-facebook-line"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/ihsantravel_uz/"
+              target="_blank"
+              class="footer__social-link"
+              ><i class="ri-instagram-line"></i
+            ></a>
+            <a
+              href="https://t.me/ihsantravel_uz"
+              target="_blank"
+              class="footer__social-link"
+              ><i class="ri-telegram-line"></i
+            ></a>
+          </div>
+
+          <span class="footer__copy" style="font-family: Montserrat, sans-serif"
+            >&#169; Авторские права iHSAN TRAVEL. Все права защищены</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!--==================== CREATED BY ====================-->
+    <div class="writtenBy">
+      <div class="container">
+        <span style="font-family: Montserrat, sans-serif"
+          >Created by
+          <a href="https://t.me/akmalov1c_1" target="_blank"
+            >Akmalov11c</a
+          ></span
+        >
+      </div>
+    </div>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="../assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAILJS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
